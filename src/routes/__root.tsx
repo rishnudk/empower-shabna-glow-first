@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "empower" },
+      { name: "description", content: "A luxury coaching landing page for personal transformation, offering mindset reprogramming and emotional wellness." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "empower" },
+      { property: "og:description", content: "A luxury coaching landing page for personal transformation, offering mindset reprogramming and emotional wellness." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "empower" },
+      { name: "twitter:description", content: "A luxury coaching landing page for personal transformation, offering mindset reprogramming and emotional wellness." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/883c43ff-ee1a-44d2-9433-9011def2a99c" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/883c43ff-ee1a-44d2-9433-9011def2a99c" },
     ],
     links: [
       {
