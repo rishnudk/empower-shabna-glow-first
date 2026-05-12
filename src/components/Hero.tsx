@@ -1,5 +1,5 @@
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroPortrait from "@/assets/hero-portrait.jpg";
+import heroPortrait from "@/assets/hero-portrait.png";
 
 export default function Hero() {
   return (
@@ -49,19 +49,15 @@ export default function Hero() {
         </div>
 
         <div className="relative animate-fade-up" style={{ animationDelay: "150ms" }}>
-          <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-gold/30 via-transparent to-primary-soft/40 blur-2xl" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/20 shadow-luxury">
+          <div className="absolute -inset-4 rounded-full bg-gradient-to-br from-gold/30 via-transparent to-primary-soft/40 blur-3xl" />
+          <div className="relative">
             <img
               src={heroPortrait}
               alt="Shabna Sulthan, transformational life coach"
               width={1024}
               height={1280}
-              className="h-full w-full object-cover"
+              className="relative h-full w-full object-contain drop-shadow-2xl"
             />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
-              <div className="font-display text-xl text-white">Shabna Sulthan</div>
-              <div className="text-sm text-white/70">Transformation Coach & Mentor</div>
-            </div>
           </div>
           {/* floating badge */}
           <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-white/95 p-4 shadow-luxury backdrop-blur sm:block">
