@@ -45,43 +45,43 @@
 :root {
   --radius: 1rem;
 
-  /* Brand */
-  --primary: oklch(0.38 0.21 320);            /* #850081 */
+  /* Brand — Eduharvard inspired: teal hero, orange accent, white surfaces */
+  --primary: oklch(0.55 0.17 50);             /* #F5A623 warm orange */
   --primary-foreground: oklch(0.99 0 0);
-  --primary-soft: oklch(0.55 0.14 320);       /* #96519A */
-  --secondary: oklch(0.55 0.14 320);
+  --primary-soft: oklch(0.78 0.14 65);        /* light orange */
+  --secondary: oklch(0.62 0.08 200);          /* teal */
   --secondary-foreground: oklch(0.99 0 0);
-  --gold: oklch(0.85 0.16 90);                /* #F8C81B */
-  --gold-foreground: oklch(0.15 0.05 280);
-  --navy: oklch(0.18 0.12 280);               /* #020B2D */
+  --gold: oklch(0.78 0.17 65);                /* #FFAE3D — used as accent orange */
+  --gold-foreground: oklch(0.99 0 0);
+  --navy: oklch(0.42 0.05 210);               /* #4A7A86 deep teal */
 
   --background: oklch(1 0 0);
-  --foreground: oklch(0.15 0.02 280);         /* #111111 */
+  --foreground: oklch(0.22 0.02 250);         /* near-black */
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.15 0.02 280);
+  --card-foreground: oklch(0.22 0.02 250);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.02 280);
-  --muted: oklch(0.97 0.005 280);             /* #F7F7F8 */
-  --muted-foreground: oklch(0.5 0.02 280);    /* #6B7280 */
-  --accent: oklch(0.96 0.02 320);
-  --accent-foreground: oklch(0.38 0.21 320);
-  --destructive: oklch(0.6 0.24 25);
+  --popover-foreground: oklch(0.22 0.02 250);
+  --muted: oklch(0.97 0.005 250);             /* light gray section */
+  --muted-foreground: oklch(0.5 0.02 250);
+  --accent: oklch(0.96 0.04 65);              /* soft cream */
+  --accent-foreground: oklch(0.55 0.17 50);
+  --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: oklch(0.99 0 0);
-  --border: oklch(0.92 0.01 280);
-  --input: oklch(0.94 0.01 280);
-  --ring: oklch(0.38 0.21 320);
+  --border: oklch(0.92 0.01 250);
+  --input: oklch(0.94 0.01 250);
+  --ring: oklch(0.55 0.17 50);
 
-  /* Gradients */
-  --gradient-hero: linear-gradient(135deg, #020B2D 0%, #850081 45%, #96519A 100%);
-  --gradient-purple-glow: radial-gradient(circle at top left, #96519A 0%, #850081 40%, #020B2D 100%);
-  --gradient-gold: linear-gradient(90deg, #F8C81B 0%, #E8B800 100%);
-  --gradient-testimonial: linear-gradient(180deg, #01071F 0%, #1A0120 100%);
-  --gradient-newsletter: linear-gradient(135deg, #850081 0%, #96519A 50%, #020B2D 100%);
+  /* Gradients — teal hero & orange CTA */
+  --gradient-hero: linear-gradient(135deg, #5A8E99 0%, #4A7A86 50%, #2F5963 100%);
+  --gradient-purple-glow: radial-gradient(circle at top left, #6FA0AB 0%, #4A7A86 45%, #2F5963 100%);
+  --gradient-gold: linear-gradient(90deg, #FFB23D 0%, #F5A623 100%);
+  --gradient-testimonial: linear-gradient(180deg, #2F5963 0%, #1F424B 100%);
+  --gradient-newsletter: linear-gradient(135deg, #F5A623 0%, #FFB23D 50%, #4A7A86 100%);
 
   /* Shadows */
-  --shadow-luxury: 0 30px 60px -20px color-mix(in oklab, #850081 25%, transparent);
+  --shadow-luxury: 0 30px 60px -20px color-mix(in oklab, #4A7A86 25%, transparent);
   --shadow-soft: 0 10px 40px -10px rgb(0 0 0 / 0.08);
-  --shadow-gold: 0 20px 40px -15px color-mix(in oklab, #F8C81B 40%, transparent);
+  --shadow-gold: 0 20px 40px -15px color-mix(in oklab, #F5A623 45%, transparent);
 }
 
 .dark {
